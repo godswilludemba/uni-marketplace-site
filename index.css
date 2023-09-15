@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: antiquewhite;
+    padding: 150px;
+    background-image: -moz-repeating-linear-gradient(yellow,red);
+}
+.logo{
+    margin-right: 50px;
+}
+.nav-section{
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 10px;
+    padding: 30px;
+}
+.l1{
+    background-color: rgb(212, 101, 101);
+    padding: 30px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
