@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 .container{
-    background-color: antiquewhite;
-    padding: 150px;
+    background-color: blue;
     background-image: -moz-repeating-linear-gradient(yellow,red);
+    padding-bottom: 90px;
 }
 .logo{
     margin-right: 50px;
+    margin-bottom: 100px;
 }
 .nav-section{
 
@@ -21,10 +22,18 @@
     margin: 10px;
     padding: 30px;
 }
+.grid>:hover{
+    background-color: green;
+    cursor: pointer;
+}
 .l1{
-    background-color: rgb(212, 101, 101);
+    background-color: goldenrod;
     padding: 30px;
     color: white;
     font-weight: bolder;
     text-align: center;
+}
+.paragraph{
+    text-align: center;
+    color: white;
 }
