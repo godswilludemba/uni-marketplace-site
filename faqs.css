@@ -1,0 +1,155 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(marketplace.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    background-image: none;
+    background-position: left;
+    width: min-content;
+    position: absolute;
+    min-height: min-content;
+    height: auto;
+    
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.faq-section {
+    margin-bottom: 20px;
+}
+
+.faq-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.faq {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.faq h3 {
+    font-size: 18px;
+    color: #555;
+    margin: 0;
+}
+
+.faq p {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
+
+
+.faq h3:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.boy{
+    border-radius: 15px;
+    font-size: larger;
+    margin-left:1000px;
+    margin-top: 15px;
+    width: 70px;
+    background-color: aqua;
+    color: orange;
+}
+
+.boy:hover{
+    background-color: white;
+    transform: matrix(1.2);
+    color: burlywood;
+}
+
+
+
+
+/*.footer{
+    /* margin-top: 1000px;}*/
+
+
+
+/* @media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+} */
+
+/* @media (max-width: 768px) {
+   
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .product {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .header {
+        background-color: #333;
+    }
+} */
