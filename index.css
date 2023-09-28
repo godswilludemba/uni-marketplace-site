@@ -2,34 +2,51 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 html{
   font-size: 62.5%;
+  width: 145rem;
 }
 body{
-background-color: ghostwhite;
+background-color: #f1f2ea;
 line-height: 1.5;
+
 }
 /* navigation section */
 nav{
-  background-color: lightgoldenrodyellow;
-  display: flex;
-  justify-content: space-between;
+  background: #b9f373;
+  height: 24rem;
+
 }
-.title{
-  padding: 2rem 10rem;
+section{
+  background-color: #f5f8c7;
+ 
 }
+
+.sec-1 {
+  margin-left: -2rem;
+  /* width: 140rem; */
+}
+
+
 .title h1 {
-  font-size: 5rem;
+  font-size: 6rem;
+  margin-left: 5rem;
+  margin-top: 3rem;
+  font-family: Arial;
+
 }
 .title li a{
   text-decoration: none;
   font-size: 2rem;
+   margin-bottom: 22rem;
+   margin-top: -9rem;
 }
 ul .header{
   float: right;
-  padding: 1rem;
   list-style: none;
+  margin-right: 10rem;
 }
 .dropdown{
   width: auto;
@@ -90,7 +107,7 @@ font-size: 2rem;
   float: left;
 width: 20%;
 height: 60rem;
-background-color: aqua;
+/* background-color: aqua; */
 }
 @keyframes hero-images{
   0%{
@@ -123,7 +140,7 @@ background-color: aqua;
 }
 /* Top deals section */
 .top-text{
-  background-color: blue;
+  background-color: #a9f54c;
 }
 .top-text h2{
   padding: 1rem;
@@ -137,8 +154,8 @@ font-size: 3.1rem;
 .top-deals figure{
  width: 20rem;
  height: 80%;
- background-color: brown;
- border: 1px solid black;
+ background-color: ghostwhite;
+ border: 1px solid #a9f54c;
 border-radius: 5px;
  margin: 3rem;
 }
@@ -188,6 +205,7 @@ grid-row: 1/2;
 .why-category{
   display: grid;
   grid-template-columns: 50% 50%;
+  background-color: #f1f2ea;
 }
 .why{
    margin: 1rem;
