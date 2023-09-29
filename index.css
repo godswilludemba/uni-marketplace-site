@@ -7,17 +7,18 @@ html{
   font-size: 62.5%;
 }
 body{
-background-color: ghostwhite;
+background-color: #f1f2ea;
 line-height: 1.5;
 margin: 2rem;
 padding: 1rem;
 }
 section{
-  background: yyy;
+  background: #f5f8c7;
+  margin: 2rem;
 }
 /* navigation section */
 nav{
-  background-color: lightgoldenrodyellow;
+  background-color: #b9f373;
   display: flex;
   justify-content: space-between;
 }
@@ -95,7 +96,6 @@ font-size: 2rem;
   float: left;
 width: 20%;
 height: 60rem;
-background-color: aqua;
 }
 @keyframes hero-images{
   0%{
@@ -128,7 +128,7 @@ background-color: aqua;
 }
 /* Top deals section */
 .top-text{
-  background-color: blue;
+  background-color: #b9f373;
 }
 .top-text h2{
   padding: 1rem;
