@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(186, 238, 186);
+}
+.successful h1{
+    color: olivedrab;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-top: 275px;
+}
