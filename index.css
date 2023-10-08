@@ -11,16 +11,41 @@ background-color: #f1f2ea;
 line-height: 1.5;
 margin: 2rem;
 padding: 1rem;
+font-family: Arial, Helvetica, sans-serif;
 }
 section{
-  background: #f5f8c7;
+  background: #dde0ab;
   margin: 2rem;
 }
+button{
+  padding: 1rem;
+  border: none;
+  background-color: #b9f373;
+  border-radius: 0.5rem;
+}
+
 /* navigation section */
 nav{
   background-color: #b9f373;
   display: flex;
   justify-content: space-between;
+}
+.toggle-btn{
+  width: 30px;
+  position: absolute;
+  right: 80px;
+  top: 40px;
+  display: none;
+
+}
+.toggle-btn span{
+  display: inline-block;
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 8px;
+
+
 }
 .title{
   padding: 2rem 10rem;
@@ -60,28 +85,44 @@ ul .header{
 }
 /* hero-section */
 .hero-section{
- display: grid;
- grid-template-columns: 50% 50%;
- background-image: url(./images/student3.png);
+  display: flex;
+  justify-content: center;
+ /* display: grid;
+ grid-template-columns: 50% 50%; */
+ /* background-image: url(./images/student3.png); */
  background-size: cover;
 }
 .textarea{
-  /* background-image: url(./images/student3.png); */
+  background-image: url(./images/student3.png);
   background-size: cover;
-height: 50vh;
-margin: 5rem;
-margin-left: 7rem;
+height: 100vh;
+/* margin: 5rem; */
+/* margin-left: 7rem; */
+padding: 4rem 4rem;
 width: 80%;
 font-size: 2rem;
+text-align: center;
+color: white;
 }
 .textarea h5{
+  margin-top: 5rem;
   font-size: -3rem;
   font-weight: 400;
 }
 .textarea p{
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bolder;
   
+}
+.textarea span{
+  width: 100%;
+}
+.btn-down{
+  margin: 5rem 2rem;
+}
+.down-btn{
+  padding: 1rem;
+  margin: 1rem;
 }
 .hero-images{
   overflow: hidden;
@@ -96,8 +137,8 @@ font-size: 2rem;
   float: left;
 width: 20%;
 height: 60rem;
-}
-@keyframes hero-images{
+ }
+/* @keyframes hero-images{ 
   0%{
     left: 0;
   }
@@ -125,7 +166,7 @@ height: 60rem;
   100%{
     left: -400%;
   }
-}
+} */
 /* Top deals section */
 .top-text{
   background-color: #b9f373;
@@ -135,20 +176,21 @@ height: 60rem;
 font-size: 3.1rem;
 }
 .top-deals{
-  display: grid;
- grid-template-columns: repeat(10, 1fr);
+  display: flex;
+  justify-content: space-around;
  gap: 10px;
 }
 .top-deals figure{
  width: 20rem;
  height: 80%;
- background-color: brown;
- border: 1px solid black;
+ background-color: ghostwhite;
+ border: 1px solid #c9d33b;
 border-radius: 5px;
  margin: 3rem;
+ transition: 1s;
 }
 .top-deals figure:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 
 }
 /* .top-deals figure div{
@@ -159,44 +201,25 @@ border-radius: 5px;
   width: 100%;
   text-align: center;
 }
-.image-1{
-  grid-column:1/3 ;
-}
-.image-2{
-  grid-column: 3/6;
-  grid-row: 1/2;
-}
-.image-3{
-  grid-column: 5/7;
-  grid-row: 1/2;
-}
-.image-4{
-grid-column: 7/10;
-grid-row: 1/2;
-}
-.image-5{
-  grid-column: 9/11;
-  grid-row: 1/2;
-}
-.explore{
-  grid-column: -3/-1;
-  grid-row: 2/3;
-  margin-right: 5rem;
-  margin-left: 5.5rem;
+
+.explore-btn{
+  margin-left: 80%;
   margin-bottom: 2rem;
   padding: 1rem;
   border: none;
   border-radius: 7px;
-  width: 60%;
+  width: 17%;
 }
 /* why-category section */
 .why-category{
   display: grid;
   grid-template-columns: 50% 50%;
+  background: #f1f2ea;
 }
 .why{
    margin: 1rem;
-  padding: 2rem; 
+  padding: 2rem;
+  grid-column: 1/3; 
 }
 .why h2{
   text-align: center;
@@ -214,10 +237,21 @@ grid-row: 1/2;
   border-end-end-radius: 5px;
   border-end-start-radius: 5px;
 }
+.why-icon i{
+  color: #7eb838;
+}
+.category{
+  grid-column: 1/3;
+}
+.category h2{
+  padding: 0.5rem;
+  border-left: 1rem solid #a8e958;
+}
 .category-icon{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  /* color: red; */
 }
 .category-icon figure{
   text-align: center;
@@ -225,8 +259,12 @@ grid-row: 1/2;
   padding: 1rem;
   box-shadow: 7px 7px 10px 5px lightslategray ;
 }
+.category-icon i{
+  color: #e0dd5b;
+}
 .all-categories{
 margin-left: 43%;
+margin-bottom: 2rem;
 padding: 1rem;
 width: 14.5%;
 }
@@ -247,6 +285,9 @@ width: 14.5%;
   display: flex;
   justify-content: space-around;
   padding: 5rem;
+}
+.works-icon i{
+  color: #a8e958;
 }
 /* footer */
 .footer{

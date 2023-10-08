@@ -23,11 +23,16 @@
   <body>
     <!-- Navigation section  -->
     <section>
+      <!-- <div class="toggle-btn" onclick="myFunction();">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div> -->
       <nav class="title">
         <div>
           <h1>Uni Mart</h1>
         </div>
-        <div>
+        <div class="top-link show" id="nav">
           <ul>
             <li class="header"><a href="#"> Account &#x25BE;</a>
               <ul class="dropdown">
@@ -54,10 +59,9 @@
     <!-- hero section -->
     <section class="hero-section">
       <div class="textarea">
-        <h5>WELCOME BACK 😃</h5>
+        <h5>WELCOME 😃</h5>
         <p>Are You Ready For The University Life?</p>
-        <span
-          >Get ready for an easier life in the univwersity, be a student or a
+        <span> Get ready for an easier life in the university, be a student or a
           Staff. we are here to get you set and ready for the life ahead.
           Because YOU matter!
         </span>
@@ -70,15 +74,15 @@
           </button>
         </div>
       </div>
-      <div class="hero-images">
+      <!-- <div class="hero-images">
         <figure>
-          <img src="images/laptop.png" alt="" />
+          <img src="images/student3.png" alt="" />
           <img src="images/student2.jpeg" alt="" />
           <img src="images/student3.png" alt="" />
           <img src="images/studdent.jpeg" alt="" />
           <img src="images/laptop.png" alt="" />
         </figure>
-      </div>
+      </div> -->
     </section>
     <!-- top deal section -->
     <section>
@@ -124,7 +128,9 @@
             <h2>NGN 150.00</h2>
           </figcaption>
         </figure>
-        <button class="explore" type="button" name="button">
+      </div>
+      <div class="top-deal-btn">
+        <button class="explore-btn" type="button" name="button">
           Explore the Marketplace
         </button>
       </div>
@@ -200,13 +206,13 @@
                 <h3>Phones & Tablet</h3>
               </figcaption>
             </figure>
-            <figure>
+            <figure class="rev">
               <i class="fa-solid fa-book-open fa-4x"></i>
               <figcaption>
                 <h3>Books</h3>
               </figcaption>
             </figure>
-            <figure>
+            <figure class="rev">
               <i class="fa-solid fa-dumbbell fa-4x"></i>
               <figcaption>
                 <h3>Sporting Items</h3>
@@ -249,12 +255,12 @@
     </section>
     <!-- footer -->
     <section>
-      <hr>
+      
       <footer>
         <h3>Uni Mart</h3>
         <div class="footer">
           
-          <div class="bottom-container">
+          <div class="bottom-container bottom-footer">
             <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
             <a
               class="footer-link"
@@ -264,7 +270,7 @@
             <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
           </div>
           
-          <div class="">
+          <div class="bottom-footer">
             <h5>Legal</h5>
             <ul>
               <li>
@@ -276,7 +282,7 @@
               <li><a href="">Cookie Policy</a></li>
             </ul>
           </div>
-          <div>
+          <div class="bottom-footer">
             <h5>Account</h5>
             <ul>
               <li><a href="#">Create Account</a></li>
@@ -285,7 +291,7 @@
               <l><a href="#">FAQs</a></l>
             </ul>
           </div>
-          <div>
+          <div class="bottom-footer">
             <h5>Company</h5>
             <ul>
               <li><a href="#">About Uni Mart</a></li>
@@ -299,5 +305,6 @@
         <p class="copyright">© 2023 Uni Mart.</p>
       </footer>
     </section>
+    <script src="index.js"></script>
   </body>
 </html>
