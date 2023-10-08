@@ -4,7 +4,7 @@
 360px - 600px => phone pro,
 600px - 1200px => tablet,
 1200px - infinity => desktop */
-
+/* landing page */
 @media(max-width: 360px){
    
       body{
