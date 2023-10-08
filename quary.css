@@ -1,3 +1,4 @@
+
 /* The various breakpoints are;
 0px - 350px => phone,
 360px - 600px => phone pro,
@@ -832,4 +833,8 @@
           color: aliceblue;
           margin: 3rem;
         } 
+        /* reg form */
+        .form{
+            background-color: aliceblue;
+        }
 }
