@@ -1,0 +1,14 @@
+
+@media screen and (max-width:481px) {
+    .grid {
+       grid-template-columns: 1fr 1fr;
+  
+    }
+
+}
+@media screen and (min-width:789px) {
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
