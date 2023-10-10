@@ -4,8 +4,56 @@
        grid-template-columns: 1fr 1fr;
   
     }
-
+@media screen and (max-width:481px){
+    .l2{
+        display: none;
+    }
+    .nav-text1{
+        margin-left:30%;
+        font-size: 17px;
+        color: rgb(182, 156, 8);
+    }
+    .nav-text2{
+        margin-left: 32%;
+        font-size: 40px;
+        color: white;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    .nav-text3{
+        margin-left:23%;
+        font-size: 13px;
+        color: rgb(61, 55, 55);
+        
 }
+.head-text{
+    margin-left: 7%;
+    width: 350px;
+    margin-top: 20px;
+    font-size: x-large;
+    color: rgb(182, 156, 8);
+}
+.head-text2{
+    text-align: center;
+    width: 390px;
+    margin-top: 10px;
+    font-weight: bold;
+    color:rgb(110, 110, 110);
+    
+}
+.button{
+    margin-left: 32%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#88ec0e;
+    color: white;
+    border: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+}
+
+
 @media screen and (min-width:789px) {
     .grid{
         grid-template-columns: 1fr 1fr 1fr;
