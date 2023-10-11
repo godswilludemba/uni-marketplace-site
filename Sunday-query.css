@@ -51,6 +51,21 @@
     font-weight: bolder;
     cursor: pointer;
 }
+.div-p{
+    color: black;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.div-text{
+    background-color: #a9f54c;
+    width: 30px;
+    border-radius: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-left: 35%;
 }
 
 
