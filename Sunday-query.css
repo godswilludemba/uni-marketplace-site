@@ -4,6 +4,7 @@
        grid-template-columns: 1fr 1fr;
   
     }
+}
 @media screen and (max-width:481px){
     .l2{
         display: none;
@@ -67,11 +68,12 @@
     padding-right: 30px;
     margin-left: 35%;
 }
+}
 
 
 @media screen and (min-width:789px) {
     .grid{
         grid-template-columns: 1fr 1fr 1fr;
     }
-    
 }
+
