@@ -46,6 +46,9 @@ ul .header{
   padding: 1rem;
   list-style: none;
 }
+.nav-toggle{
+  display: none;
+}
 .dropdown{
   width: auto;
   background-color: aliceblue;

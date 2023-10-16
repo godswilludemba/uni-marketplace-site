@@ -11,4 +11,4 @@ if(visibility === "false"){
     navToggle.setAttribute('aria-expanded', false);
 
 }
-})
+});
