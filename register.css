@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-.main1{
+body{
     background-color: rgb(186, 238, 186);
+}
+.main1{
     background-size: cover;
     font-family: "Playfair Display";
     padding-left: 500px;
@@ -21,7 +23,10 @@
     margin-left: 130px;
 }
 .register{
+    margin-top: 50px;
     margin-left: 600px;
+    position: absolute;
+    margin-top: -40px;
     border: none;
     background-color: rgb(32, 146, 32);
     padding: 10px;
@@ -46,10 +51,12 @@
 .log input{
     border: none;
     background: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(87, 104, 55);
     margin-bottom: 20px;
     width: 300px;
     height: 30px;
+    transition: border-bottom 0.3s;
+    outline: none;
 }
 .hint a{
     text-decoration: none;
@@ -70,7 +77,7 @@
 .hint a:hover{
     color: white;
 }
-.log input:hover{
-    border: 1px solid olivedrab;
-    border-radius: 5px;
+.log input:focus{
+    border-bottom: 1px solid olivedrab;
 }
+

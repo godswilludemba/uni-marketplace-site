@@ -5,40 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="path/to/intlTelInput.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="quary.css">
-    <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="login.css">
     <title>Registration</title>
 </head>
 <body>
+    <div class="container">
         <div class="main">
             <div class="text">
                 <h1>About UniMART</h1>
                 <h4>UniMart is a dynamic university marketplace, that facilitate interactions, buying, and selling of goods and services exclusively for university students within Nigeria. </h4>
             </div>
             <div class="form">
-                <button class="login"><a href="register.html">Log in</a></button>
-                <form action="Registration">
-                    <label for="name">Surname:</label><br>
-                    <input type="text"><br>
-                    <label for="name">First name:</label><br>
-                    <input type="text"><br>
-                    <label for="name">Middle name:</label><br>
-                    <input type="text"><br>
+                <button class="login"><a href="register.html">Log In</a></button>
+                <form name="registrationForm" onsubmit="return validateForm()" action="Registration">
+                    <label for="surname">Surname:</label><br>
+                    <input type="text" name="surname"><br>
+                
+                    <label for="first-name">First name:</label><br>
+                    <input type="text" name="first-name"><br>
+                
+                    <label for="middle-name">Middle name:</label><br>
+                    <input type="text" name="middle-name"><br>
+                
                     <label for="phone">Phone number:</label><br>
-                    <input type="tel" placeholder="+234"><br>
+                    <input type="tel" name="phone" placeholder="+234"><br>
+                
                     <label for="email">Email:</label><br>
-                    <input type="email"><br>
+                    <input type="email" name="email"><br>
+                
                     <label for="password">Password:</label><br>
-                    <input type="password"><br>
-                    <label for="password">Confirm password:</label><br>
-                    <input type="password"><br>
-                    </form>
-                    </div>
-                    <div class="checkbox">
-                    <input type="checkbox">
-                    <label for="checkbox">Notify me on new items</label><br>
-                    <button><a href="succesful.html">Register</a></button><br>
-                    </div>
+                    <input type="password" name="password"><br>
+                
+                    <label for="confirm-password">Confirm password:</label><br>
+                    <input type="password" name="confirm-password"><br>
+                </form>                
+                <div class="checkbox">
+                  <div class="checkbox-container">
+                      <input type="checkbox" id="notifyCheckbox">
+                      <label for="notifyCheckbox">Notify me on new items</label>
+                  </div>
+                  <button type="submit">Register</button>
+                </div>
+            </div>
         </div>
+    </div>
+    <script src="login.js"></script>
 </body>
 </html>
